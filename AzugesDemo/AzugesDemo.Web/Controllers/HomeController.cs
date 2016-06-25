@@ -10,14 +10,15 @@ namespace AzugesDemo.Web.Controllers
     {
         public ActionResult Index()
         {
-            var pp = new List<int>();
+            var lista = new List<int>();
 
-            for (int i = 0; i < 10; i++)
-            {
-                pp.Add(i);
-            }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    pp.Add(i);
+            //}
 
-            return View(pp);
+            return View(lista);
+            
         }
 
         public ActionResult About()
