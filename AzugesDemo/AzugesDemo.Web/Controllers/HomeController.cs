@@ -10,6 +10,8 @@ namespace AzugesDemo.Web.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceInformation("Al mundo vendrán 13 millones de naves");
+
             var lista = new List<int>();
 
             //for (int i = 0; i < 10; i++)
