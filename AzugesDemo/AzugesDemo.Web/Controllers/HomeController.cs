@@ -14,10 +14,10 @@ namespace AzugesDemo.Web.Controllers
 
             var lista = new List<int>();
 
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    pp.Add(i);
-            //}
+            for (int i = 0; i < 10; i++)
+            {
+                lista.Add(i);
+            }
 
             return View(lista);
             
